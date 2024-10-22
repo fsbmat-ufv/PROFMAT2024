@@ -97,10 +97,11 @@ src='img/ssmodels.png' width="150px"></a>
 
 <a href='https://ctan.org/pkg/figchild'>  <img src='img/PacFigchild.png' width="150px"></a>
 
+
+
+
+<!--
 <a href='https://github.io/fsbmat-ufv/'>  <img img src='img/figchild.png' width="150px"></a>
-
-
-
 <a href='https://saopaulo2019.satrdays.org/'>  <img src='img/Hex/2satrdaysp.png' 
 width="150px"></a>
 <a href='https://latin-r.com/'>  <img src='img/Hex/4LatinR_hex_violeta-cut.jpg' 
@@ -117,7 +118,7 @@ src='https://beatrizmilz.github.io/mananciais/reference/figures/hexlogo.png'
 width="150px"></a>
 </center>
 
-
+-->
 ---
 
 ## Proposta do Projeto
@@ -281,3 +282,23 @@ Clique em _File_ -> _New File_ -> _R Markdown_ -> _From Template_
 -> _Interactive Tutorial_ -> _OK_
 
 ![Arquivo Inicial](https://raw.githack.com/fsbmat-ufv/PROFMAT2024/main/img/Learn1.PNG)
+
+---
+
+![Arquivo 2](https://raw.githack.com/fsbmat-ufv/PROFMAT2024/main/img/Learnr2.PNG)
+
+---
+
+## Alteração do yaml e criação de exercícios
+
+Vou mostrar como criar o seguinte tutorial: 
+[Clique Aqui!](https://pibicest.shinyapps.io/Tutorial/)
+
+---
+
+## Disponibilizar Online
+
+Clique em Publish e Instale os pacotes solicitados. Escolha posteriormente conectar em uma 
+conta e escolha ShinyApps.io (Você terá que entrar em sua conta que já está criada) e 
+copiar o token da conta, posteriormente clique em ShinyApps.io e acrescente seu token, clique em conectar e publicar!
+
