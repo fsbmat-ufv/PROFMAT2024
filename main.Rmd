@@ -280,4 +280,4 @@ _New RStudio Project_
 Clique em _File_ -> _New File_ -> _R Markdown_ -> _From Template_ 
 -> _Interactive Tutorial_ -> _OK_
 
-![Arquivo Inicial]()
+![Arquivo Inicial](https://raw.githack.com/fsbmat-ufv/PROFMAT2024/main/img/Learn1.PNG)
