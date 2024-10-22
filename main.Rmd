@@ -1,0 +1,181 @@
+---
+title: "Ferramentas Práticas para o Ensino de Estatística"
+subtitle: "Projeto PIBIC/UFV 2023-2024"
+author: 
+  - "Fernando de Souza Bastos"
+date: '13 de novembro de 2024'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+class: middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE,
+  fig.align = "center"
+)
+```
+
+```{r eval=FALSE, include=FALSE}
+# devtools::install_github("hadley/emo")
+# devtools::install_github("gadenbuie/xaringanExtra")
+# devtools::install_github("gadenbuie/ermoji")
+```
+
+
+```{r xaringanExtra-clipboard, echo=FALSE}
+xaringanExtra::use_clipboard()
+```
+
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#138583",
+  title_slide_background_color = "#51B8B6",
+  title_slide_text_color = "#FFFFFF",
+  inverse_text_color = "#138583",
+  inverse_header_color = "#138583",
+  secondary_color = "#EDBBC8",
+  
+  header_font_google = google_font("Josefin Slab", "600"),
+  text_font_google   = google_font("Work Sans", "300", "300i"),
+  code_font_google   = google_font("Fira Code"),
+  base_font_size = "25px"
+)
+```
+
+
+
+.pull-left[
+
+## Fernando de Souza Bastos
+
+- Doutor em Estatística - UFMG 2018
+
+- 2010 à 2022- Professor do Curso de Matemática - Licenciatura (Campus UFV - Florestal)
+
+- Desde 2022 - Professor do Departamento de Estatística (Campus UFV - Viçosa) 
+
+- Pai da Ana Beatriz, da Ana Laura e da Ana Júlia
+]
+
+.pull-right[
+<center>
+<img src='img/IMG_0935.jpeg' alt="Avatar" style="border-radius: 10%;"></center>
+
+]
+
+
+---
+
+### R: Comunidades, pacotes, produtos..
+<center>
+
+<a href='https://cran.case.edu/web/packages/heckmanGE/index.html'>  <img src='img/HeckmanGE.png' width="150px"></a>
+
+
+<a href='https://cran.r-project.org/web/packages/ssmodels/index.html'>  <img src='img/ssmodels.png' width="150px"></a>
+
+<a href='https://ctan.org/pkg/figchild'>  <img src='img/PacFigchild.png' width="150px"></a>
+
+<a href='https://github.io/fsbmat-ufv/'>  <img img src='img/figchild.png' width="150px"></a>
+
+
+
+<a href='https://saopaulo2019.satrdays.org/'>  <img src='img/Hex/2satrdaysp.png' width="150px"></a>
+<a href='https://latin-r.com/'>  <img src='img/Hex/4LatinR_hex_violeta-cut.jpg' width="150px"></a>
+<a href='https://carpentries.org/'>  <img src='img/Hex/carpentries.png' width="150px"> </a>
+<a href='https://user2021.r-project.org/'>  <img src='https://user2021.r-project.org/img/artwork/user-logo-color.png' width="150px"> </a>
+
+<a href='https://cienciadedatos.github.io/dados/'>  <img src='https://cienciadedatos.github.io/dados/reference/figures/dados-hex.png' width="150px"></a>
+<a href='https://beatrizmilz.github.io/mananciais/'>  <img src='https://beatrizmilz.github.io/mananciais/reference/figures/hexlogo.png' width="150px"></a>
+</center>
+
+
+---
+
+## Temas de hoje
+
+
+- O que é o pacote learnr
+
+- Exemplos de tutoriais feitos com learnr
+
+- Como usar, criar e compartilhar os tutoriais feitos com learnr?
+
+- learnr-verse
+
+- learnr em português?
+
+- Links para saber mais, e referências
+
+
+---
+
+class: middle
+
+## Pacote learnr 📦
+
+- É muito interessante para quem quer aprender 👩‍🎓 ou quem quer ensinar! 👩‍🏫
+
+- [Documentação](https://rstudio.github.io/learnr/) do pacote e repositório no [GitHub](https://github.com/rstudio/learnr)
+
+- Mantido pela [RStudio](https://www.rstudio.com/), que é muito além de uma IDE!
+
+- Começou a ser desenvolvido em outubro de 2016, pelo [
+J.J. Allaire](https://github.com/jjallaire) - fundador e CEO da RStudio
+
+- Pessoas mais ativas na manutenção e desenvolvimento do pacote: [Barret Schloerke](https://github.com/schloerke) e [Garrick Aden-Buie](https://github.com/gadenbuie) 
+
+
+---
+class: middle
+
+
+## Pacote learnr 📦
+
+- Escrevemos um arquivo `.Rmd` e geramos um aplicativo Shiny.
+
+- Podemos adicionar os conteúdos que já são possíveis de serem adicionados em um `.Rmd`, como: textos, imagens, vídeos, equações, códigos, tabelas, etc. 
+
+- Além disso, também podemos colocar: 
+  - Exercícios (exercises)
+  - Perguntas de múltipla escola (questions)
+
+---
+
+class: middle
+
+## Exemplos de learnr 🌟
+
+- [Exploring missing values in naniar](https://allisonhorst.shinyapps.io/missingexplorer/)
+
+- Alguns dos [RStudio Primers](https://rstudio.cloud/learn/primers)
+
+
+---
+
+
+```{r embed-xaringan, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://beatriz-milz.shinyapps.io/formative_assessment/")
+```
+
+
+---
