@@ -63,6 +63,13 @@ style_duo_accent(
 ```
 
 
+## Observação Importante!
+
+Sugerimos que você assista essa palestra em um computador de mesa ou notebook, caso queiram participar de forma ativa no desenvolvimento da palestra!
+
+
+---
+
 .pull-left[
 
 ## Fernando de Souza Bastos
@@ -79,6 +86,30 @@ style_duo_accent(
 .pull-right[
 <center>
 <img src='img/IMG_0935.jpeg' alt="Avatar" style="border-radius: 10%;">
+</center>
+
+]
+
+---
+
+.pull-left[
+
+## Darah Aparecida Pires Moreira
+
+- Graduanda em Matemática - UFV 2024
+
+- Medalhista da OBMEP nos anos de 2010, 2012 e 2015
+
+- Menção Honrosa 2014
+
+- Realizou três IC's (Geometria Algébrica, Análise na Reta e Estatística) 
+
+- Tem interesse continuar os estudos na área de Estatística!
+]
+
+.pull-right[
+<center>
+<img src='img/Darah.png' alt="Avatar" style="border-radius: 10%;">
 </center>
 
 ]
