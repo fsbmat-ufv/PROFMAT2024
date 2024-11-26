@@ -67,6 +67,12 @@ style_duo_accent(
 
 Sugerimos que você assista essa palestra em um computador de mesa ou notebook, caso queiram participar de forma ativa no desenvolvimento da palestra!
 
+<div style="text-align: center;">
+  <img src="img/digitacao.gif" alt=" " width="500px">
+</div>
+
+
+
 
 ---
 
@@ -116,58 +122,45 @@ Sugerimos que você assista essa palestra em um computador de mesa ou notebook, 
 
 ---
 
-### R: Comunidades, pacotes, produtos..
-<center>
-
-<a href='https://cran.case.edu/web/packages/heckmanGE/index.html'>  <img 
-src='img/HeckmanGE.png' width="150px"></a>
-
-
-<a href='https://cran.r-project.org/web/packages/ssmodels/index.html'>  <img 
-src='img/ssmodels.png' width="150px"></a>
-
-<a href='https://ctan.org/pkg/figchild'>  <img src='img/PacFigchild.png' width="150px"></a>
-
-
-
-
-<!--
-<a href='https://github.io/fsbmat-ufv/'>  <img img src='img/figchild.png' width="150px"></a>
-<a href='https://saopaulo2019.satrdays.org/'>  <img src='img/Hex/2satrdaysp.png' 
-width="150px"></a>
-<a href='https://latin-r.com/'>  <img src='img/Hex/4LatinR_hex_violeta-cut.jpg' 
-width="150px"></a>
-<a href='https://carpentries.org/'>  <img src='img/Hex/carpentries.png' width="150px"> </a>
-<a href='https://user2021.r-project.org/'>  <img 
-src='https://user2021.r-project.org/img/artwork/user-logo-color.png' width="150px"> </a>
-
-<a href='https://cienciadedatos.github.io/dados/'>  <img 
-src='https://cienciadedatos.github.io/dados/reference/figures/dados-hex.png' 
-width="150px"></a> 
-<a href='https://beatrizmilz.github.io/mananciais/'>  <img 
-src='https://beatrizmilz.github.io/mananciais/reference/figures/hexlogo.png' 
-width="150px"></a>
-</center>
-
--->
----
-
 ## Proposta do Projeto
 
-
-O projeto ``Pesquisa e Criação de Ferramentas Práticas para o Ensino de Estatística'', 
-aprovado no Edital de Bolsas de Iniciação Científica da UFV de 2023, com apoio do CNPq, 
-teve como objetivo desenvolver ferramentas práticas para o ensino de Estatística básica 
-em cursos de graduação, utilizando o _software R_ e pacotes como _tidyverse_, 
-_shinydashboard_, _ggplot_ e _learnR_, entre outras ferramentas tecnológicas.
-
-
+<p style="text-align: justify;">
+O projeto <i>Pesquisa e Criação de Ferramentas Práticas para o Ensino de Estatística</i>,
+aprovado no Edital de Bolsas de Iniciação Científica da UFV de 2023, com apoio do CNPq,
+teve como objetivo desenvolver ferramentas práticas para o ensino de Estatística básica
+em cursos de graduação, utilizando o <em>software R</em> e pacotes como <em>tidyverse</em>,
+<em>shinydashboard</em>, <em>ggplot</em> e <em>learnR</em>, entre outras ferramentas tecnológicas.
+</p>
+<center>
+<img src='img/ferramentas.png' alt="" style="border-radius: 10%;">
+</center>
 ---
 
 
 ## Desenvolvimento
 
+<ul style="list-style-position: inside;">
+  <li style="text-align: justify;">
+  Inicialmente, foi realizado uma discussão entre a bolsista do projeto e o orientador 
+  e também professor da disciplina de Estatística I (EST 106), ofertada para alunos dos 
+  cursos de Ciências Exatas da UFV, sobre requisitos e necessidades específicas dos 
+  estudantes e professores na área de Estatística básica.</li>
+  </br>
+  <li style="text-align: justify;">
+  Pesquisamos sites de professores no Brasil e no mundo de diversas instituições 
+  e elaboramos uma lista com roteiros de aulas, apostilas, livros utilizados na 
+  graduação, <em>applets</em>, aplicativos e ferramentas práticas para identificar 
+  materiais estatísticos relevantes e as possibilidades de uso, transformação de 
+  materiais ou criação de novas ferramentas para o ensino.</li>
+  </br>
+  <li style="text-align: justify;">
+  Identificamos muito material interessante, <em>applets</em>, <em>softwares</em>, listas de 
+ exercícios e muitas ideias...</li>
+</ul>
+</p>
 
+
+<<<<<<< HEAD
  - Inicialmente, foi realizado uma discussão entre a bolsista do projeto e o orientador 
  e também professor da disciplina de Estatística I (EST 106), ofertada para alunos dos 
  cursos de Ciências Exatas da UFV, sobre requisitos e necessidades específicas dos 
@@ -182,27 +175,38 @@ _shinydashboard_, _ggplot_ e _learnR_, entre outras ferramentas tecnológicas.
  - Identificamos materiais interessantes, _applets_, _softwares_, listas de 
  exercícios, entre outras ideias e trabalhos...
  
+=======
+>>>>>>> 8e9458472164bd40ed9a8e51e07678cf6d1a0054
 ---
 
 ## Começo do Trabalho
 
- - Entendemos que aprender conceitos de tabelas e gráficos de forma visual e prática é
- essencial no curso de Estatística, pois permite ao estudante compreender o processo 
- completo de análise de dados, desde sua coleta até a apresentação dos resultados. A 
- experiência prática com dados brutos oferece uma visão realista dos desafios que envolvem 
- a limpeza e organização das informações, etapas fundamentais para garantir a qualidade e 
- confiabilidade das análises. Antes de construir gráficos, é extremamente importante que o 
- estudante pelo menos visualize a dificuldade de lidar com dados desorganizados, errados ou 
- incompletos, aplicando técnicas de tratamento e validação. 
- 
- - Assim, criamos um questionário para coleta de dados no google forms. Tal questionário é 
- preenchido pelos estudantes nas primeiras aulas, após iniciarem o conteúdo de tabelas de 
- frequência e gráficos. Vejam [aqui](https://forms.gle/ZomkKuRJBzGUgKTE7) o questionário!
+<ul style="list-style-position: inside;">
+  <li style="text-align: justify;">
+    Entendemos que aprender conceitos de tabelas e gráficos de forma visual e prática é
+    essencial no curso de Estatística, pois permite ao estudante compreender o processo 
+    completo de análise de dados, desde sua coleta até a apresentação dos resultados. A 
+    experiência prática com dados brutos oferece uma visão realista dos desafios que envolvem 
+    a limpeza e organização das informações, etapas fundamentais para garantir a qualidade e 
+    confiabilidade das análises. Antes de construir gráficos, é extremamente importante que o 
+    estudante pelo menos visualize a dificuldade de lidar com dados desorganizados, errados ou 
+    incompletos, aplicando técnicas de tratamento e validação.
+  </li>
+</br>
+  <li style="text-align: justify;">
+    Assim, criamos um questionário para coleta de dados no Google Forms. Tal questionário é 
+    preenchido pelos estudantes nas primeiras aulas, após iniciarem o conteúdo de tabelas de 
+    frequência e gráficos.
+  </li>
+</ul>
 
+Vejam [aqui](https://forms.gle/ZomkKuRJBzGUgKTE7) o questionário!
 ---
 
 ### Visualização e Limpeza dos Dados
 
+<ul style="list-style-position: inside;">
+  <li style="text-align: justify;">
 Após observar as respostas ao questionário apresento aos estudantes alguns erros 
 no preenchimento do mesmo. Cito aqui por exemplo, a resposta qualitativa em locais 
 que esperamos resposta numérica, respostas iguais que são escritas de maneiras 
@@ -210,18 +214,24 @@ distintas, por exemplo, ao responder sua cidade de residência alguns estudantes
 colocam Belo Horizonte, Belo-Horizonte, Belo - Horizonte, Belo- Horizonte, Belo 
 -Horizonte, BH, BH-MG, BH nas Férias e em Viçosa no Período de aula e assim, por 
 diante!
-
+  </li>
+</br>
+  <li style="text-align: justify;">
 Criamos então um código em linguagem R que faz a leitura dos dados, transforma tudo 
 em caixa alta, remove acentos e caracteres especiais, corrige alguns desses erros 
 que já apareceram no banco de dados e apresenta as tabelas e gráficos corrigidos 
 ou próximo do melhor resultado. É fato que semestralmente, mudanças precisam ser 
-realizadas nos códigos! Vejam [aqui](https://rpubs.com/fsbmat/CensoEst105) alguns 
-resultados do questionário aplicado nesse semestre!
+realizadas nos códigos! 
+  </li>
+</ul>
 
+Vejam [aqui](https://rpubs.com/fsbmat/CensoEst105) alguns 
+resultados do questionário aplicado nesse semestre!
 ---
 
 ### Discussões
 
+<p style="text-align: justify;">
 As discussões que surgem durante a aula que apresentamos os resultados são 
 extremamente interessantes, a construção de tabelas e gráficos claros e interpretáveis 
 cria um elo entre os alunos e o professor, a aula torna-se mais interessante e mais 
@@ -230,9 +240,10 @@ primeira aula, os alunos conseguem se identificar ou identificar algum colega, p
 o professor deve ter um senso critico antes de apresentar os resultados, mas ao longo 
 dos semestres, juntando as respostas de todas as turmas, fica dificil identificar 
 um estudante especifico, não criando assim, nenhum problema com o seu uso. 
-
+</p>
+ <p style="text-align: justify;">
 Alguma variáveis que apresentam respostas interessantes:
-
+</p>
 - Idade
 - Você Acredita que Terá um Bom Resultado na Disciplina de EST?
 - Qual o Salário que Você Acredita que Será Ofertado Para Você No Início de Sua Carreira
@@ -244,23 +255,46 @@ Profissional (Após Formado)?
 
 ## Greve
 
+.pull-left[
+
+<p style="text-align: justify;">
 No decorrer do projeto houve a greve dos professores, que durou cerca de três meses, 
 por isso, alteramos nossa proposta inicial de desenvolver aplicativos e iniciamos a criação 
 da apostila interativa do curso de Estatística I (EST 106), a mesma ainda encontra-se 
 em desenvolvimento, mas com a totalidade dos assuntos da disciplina escrita e disponível. 
 A mesma foi baseada na apostila de EST 106 da UFV escrita pelo professor Luiz Alexandre 
 Peternelli com pequenas alterações. 
+</p>
 [Clique aqui](https://pibicest.shinyapps.io/ApostilaInterativa/) para visualiza-la!
+]
 
+.pull-right[
+<center>
+<img src='img/Pensando.png' alt=" " style="border-radius: 10%;">
+</center>
+
+]
 ---
 
 ## Temas a partir de agora...
 
+.pull-left[
+
 - O que é o pacote learnr
 
 - Como usar e criar os tutoriais feitos com learnr?
+]
 
-- Links para saber mais, e referências
+.pull-right[
+<center>
+<img src='img/learnR.png' alt=" " style="border-radius: 10%;">
+</center>
+
+]
+
+
+
+
 
 ---
 class: middle
@@ -295,6 +329,7 @@ _.Rmd_, como: textos, imagens, vídeos, equações, códigos, tabelas, etc.
 - Além disso, também podemos colocar: 
   - Exercícios (exercises)
   - Perguntas de múltipla escola (questions)
+  - Outras ferramentas estão sendo desenvolvidas!
 
 
 ---
@@ -329,7 +364,9 @@ Vou mostrar como criar o seguinte tutorial:
 
 ## Disponibilizar Online
 
+<p style="text-align: justify;">
 Clique em Publish e Instale os pacotes solicitados. Escolha posteriormente conectar em uma 
 conta e escolha ShinyApps.io (Você terá que entrar em sua conta que já está criada) e 
 copiar o token da conta, posteriormente clique em ShinyApps.io e acrescente seu token, clique em conectar e publicar!
+</p>
 
