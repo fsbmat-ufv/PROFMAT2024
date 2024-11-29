@@ -7,7 +7,7 @@ author:
 date: '30 de novembro de 2024'
 output:
   xaringan::moon_reader:
-    css: xaringan-themer.css
+    css: style2.css
     nature:
       slideNumberFormat: "%current%"
       highlightStyle: github
@@ -15,7 +15,6 @@ output:
       ratio: 16:9
       countIncrementalSlides: true
 ---
-
 
 
 ```{r setup, include=FALSE}
