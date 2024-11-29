@@ -160,7 +160,7 @@ em cursos de graduação, utilizando o <em>software R</em> e pacotes como <em>ti
 </p>
 
 
-<<<<<<< HEAD
+
  - Inicialmente, foi realizado uma discussão entre a bolsista do projeto e o orientador 
  e também professor da disciplina de Estatística I (EST 106), ofertada para alunos dos 
  cursos de Ciências Exatas da UFV, sobre requisitos e necessidades específicas dos 
@@ -175,8 +175,6 @@ em cursos de graduação, utilizando o <em>software R</em> e pacotes como <em>ti
  - Identificamos materiais interessantes, _applets_, _softwares_, listas de 
  exercícios, entre outras ideias e trabalhos...
  
-=======
->>>>>>> 8e9458472164bd40ed9a8e51e07678cf6d1a0054
 ---
 
 ## Começo do Trabalho
@@ -368,5 +366,18 @@ Vou mostrar como criar o seguinte tutorial:
 Clique em Publish e Instale os pacotes solicitados. Escolha posteriormente conectar em uma 
 conta e escolha ShinyApps.io (Você terá que entrar em sua conta que já está criada) e 
 copiar o token da conta, posteriormente clique em ShinyApps.io e acrescente seu token, clique em conectar e publicar!
+</p>
+
+---
+
+## Agradecemos a presença de todos!
+
+
+<p style="text-align: justify;">
+Foi um prazer compartilhar este trabalho sobre o learnR e sua aplicação na criação de materiais interativos.
+
+Acreditamos que o uso de materiais interativos representa uma poderosa ferramenta pedagógica, pois promove a autonomia dos alunos, facilita o aprendizado de conceitos complexos e fomenta um ambiente mais dinâmico e engajador em sala de aula.
+
+Estamos à disposição para esclarecer dúvidas, trocar ideias e discutir possibilidades de implementação. Contem conosco para explorar ainda mais o potencial do learnR na educação!
 </p>
 
