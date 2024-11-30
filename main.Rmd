@@ -159,21 +159,6 @@ em cursos de graduação, utilizando o <em>software R</em> e pacotes como <em>ti
 </p>
 
 
-
- - Inicialmente, foi realizado uma discussão entre a bolsista do projeto e o orientador 
- e também professor da disciplina de Estatística I (EST 106), ofertada para alunos dos 
- cursos de Ciências Exatas da UFV, sobre requisitos e necessidades específicas dos 
- estudantes e professores na área de Estatística básica.
- 
- - Pesquisamos, sites de professores no Brasil e no mundo de diversas instituições 
- e elaboramos uma lista com roteiros de aulas, apostilas, livros utilizados na 
- graduação, \textit{applets}, aplicativos e ferramentas práticas para identificar 
- materiais estatísticos relevantes e as possibilidades de uso, transformação de 
- materiais ou criação de novas ferramentas para o ensino.
- 
- - Identificamos materiais interessantes, _applets_, _softwares_, listas de 
- exercícios, entre outras ideias e trabalhos...
- 
 ---
 
 ## Começo do Trabalho
